@@ -1,14 +1,14 @@
 import {createWebHistory, createRouter} from "vue-router";
 
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Register from '../pages/Register';
-import Login from '../pages/Login';
-import Dashboard from '../pages/Dashboard';
+import Home from '../pages/Home.vue';
+import About from '../pages/About.vue';
+import Register from '../pages/Register.vue';
+import Login from '../pages/Login.vue';
+import Dashboard from '../pages/Dashboard.vue';
 
-import Societes from '../components/Societes';
-import AddSociete from '../components/AddSociete';
-import EditSociete from '../components/EditSociete';
+import Societes from '../components/Societes.vue';
+import AddSociete from '../components/AddSociete.vue';
+import EditSociete from '../components/EditSociete.vue';
 
 export const routes = [
     {
